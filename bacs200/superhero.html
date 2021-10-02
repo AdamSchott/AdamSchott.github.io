@@ -1,87 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BACS 200 - Week 6 Demos</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 </head>
-
 <body>
-    <h1>Demos of URLs</h1>
-    <p>Page loading is http://mark-seaman.github.io/demo/week6/index.html</p>
 
-    <h2>Absolute URL</h2>
-    <ul>
-        <li>
-            <a href="http://mark-seaman.github.io/demo/week6/images/Bear.png">
-                http://mark-seaman.github.io/demo/week6/images/Bear.png
-            </a>
-        </li>
-        <li>
-            <img src="http://mark-seaman.github.io/demo/week6/images/Bear.png"
-                alt="http://mark-seaman.github.io/demo/week6/images/Bear.png">
-        </li>
-        <li>
-            <a href="http://mark-seaman.github.io/bacs200/images/Bear_Logo.png">
-                http://mark-seaman.github.io/bacs200/images/Bear_Logo.png
-            </a>
-        </li>
-        <li>
-            <a href="http://mark-seaman.github.io/bacs200/images/Bear_Logo.png">
-                http://mark-seaman.github.io/bacs200/images/Bear_Logo.png
-            </a>
-        </li>
-    </ul>
+<h2>HTML Table</h2>
 
-
-    <h2>Server URL</h2>
-    <ul>
-        <li>
-            <a href="/demo/week6/images/Bear.png">
-                /demo/week6/images/Bear.png
-            </a>
-        </li>
-        <li>
-            <img src="/demo/week6/images/Bear.png" alt="/demo/week6/images/Bear.png">
-        </li>
-        <li>
-            <a href="/bacs200/images/Bear_Logo.png">
-                /bacs200/images/Bear_Logo.png
-            </a>
-        </li>
-        <li>
-            <a href="/bacs200/images/Bear_Logo.png">
-                /bacs200/images/Bear_Logo.png
-            </a>
-        </li>
-    </ul>
-
-
-    <h2>Relative URL</h2>
-    <ul>
-        <li>
-            <a href="images/Bear.png">
-                images/Bear.png
-            </a>
-        </li>
-        <li>
-            <img src="images/Bear.png" alt="images/Bear.png">
-        </li>
-        <li>
-            <a href="../../bacs200/images/Bear_Logo.png">
-                ../../bacs200/images/Bear_Logo.png
-            </a>
-        </li>
-        <li>
-            <a href="../../bacs200/images/Bear_Logo.png">
-                ../../bacs200/images/Bear_Logo.png
-            </a>
-        </li>
-    </ul>
-
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Alias</th>
+    <th>Image</th>
+    <th>Superpower</th>
+    <th>Weakness</th>
+  </tr>
+  <tr>
+    <td>Batman</td>
+    <td>Bruce Wayne</td>
+    <td>Germany</td>
+    <td>Martial Arts</td>
+    <td>Memories of Parents</td>
+    
+  </tr>
+  <tr>
+    <td>Spiderman</td>
+    <td>Peter Parker</td>
+    <td>Mexico</td>
+    <td>Web Shooting</td>
+    <td>Ethyl chloride</td>
+  </tr>
+  <tr>
+    <td>Cptn. America</td>
+    <td>Steve Rodgers</td>
+    <td>Austria</td>
+    <td>Super Soldier Strength</td>
+    <td>A man out of time</td>
+  </tr>
+  <tr>
+    <td>Aquaman</td>
+    <td>Arthur Curry</td>
+    <td>UK</td>
+    <td>Underwater Capabilities</td>
+    <td>Human Emotions</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+    <td>Germany</td>
+    <td>Germany</td>
+  </tr>
+</table>
 
 </body>
-
 </html>
+
