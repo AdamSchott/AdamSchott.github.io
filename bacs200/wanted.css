@@ -14,11 +14,18 @@ body {
     border-radius: 60px;
 }
 h1 {
-    padding: 60px;
+    padding: 100px;
     text-align: center;
     margin: 3em;
     border-radius: 60px;
 }   
+
+h2 {
+    padding: 0px;
+    text-align: center;
+    margin: 3em;
+    border-radius: 60px;
+} 
 
 article {
     border: 1px solid gray;
