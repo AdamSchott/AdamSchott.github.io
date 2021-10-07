@@ -38,6 +38,8 @@ footer {
 }
 
 header {
+    padding: 200px;
+    margin: 0px;
     border: 3px solid #F6B018;
     background-color: #0E3D65;
     font-family: sans-serif;
@@ -73,7 +75,7 @@ li {
 }
 
 .page {
-    padding: 6em;
+    padding: 2em;
     box-shadow: 2px 2px 5px grey;
     background-color: #eeeeee;
     border: 3px solid #0E3D65;
