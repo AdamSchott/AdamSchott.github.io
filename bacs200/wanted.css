@@ -49,14 +49,15 @@ header {
     text-align: center;
     font: 200% cursive;
     color: brown;
-    border: 1px solid gray;
     background-color: tan;
     border-radius: 60px;
-    border: 1px solid black;
+    border: 3px solid black;
 
 hr {
-    padding: 0px;
+    padding: 20px;
     border: 4px solid pink;
+    font: 20% cursive;
+    color: brown;
 }
 
 li {
