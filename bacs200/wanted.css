@@ -9,7 +9,8 @@
 
 body {
     padding: 0px;
-    margin: 0px;
+    margin: 3em;
+    border: 1px solid Black;
 }
 
 article {
