@@ -41,7 +41,6 @@ footer {
     margin: 2em;
     padding: 2em;
 }
-
 header {
 
     margin: 2em;
@@ -63,6 +62,8 @@ hr {
 li {
     margin: 5px 3em;
     padding: 0px;
+    font: 20% cursive;
+    color: brown;
 }
 
 /* ----------------------------------------------- */
