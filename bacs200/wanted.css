@@ -31,14 +31,19 @@ aside {
     width: 50%;
 }
 
+h2 {    
+    font-size: 40px;
+    font-family: sans-serif;
+    color: blue;
+    
+}    
+
 footer {
     clear: both;
     text-align: center;
     margin: 2em;
     padding: 2em;
-    font-size: 50px;
-    font-family: sans-serif;
-    color: white;
+
 }
 
 header {
