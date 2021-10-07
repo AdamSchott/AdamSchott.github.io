@@ -53,6 +53,7 @@ header {
     border: 1px solid gray;
     background-color: tan;
     border-radius: 60px;
+    border: 1px solid black;
 }
 
 header * {
