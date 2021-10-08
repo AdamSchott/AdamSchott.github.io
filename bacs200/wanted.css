@@ -78,15 +78,6 @@ header * {
     color: red;
 }
 
-main {
-    border-radius: 20px;
-    border: 3px solid white;
-    background-color: rgb(90, 90, 90);
-    font-family: sans-serif;
-    text-align: center;
-    width: 130px;
-}
-
 hr {
     padding: 0px;
     border: 4px solid #F6B018;
