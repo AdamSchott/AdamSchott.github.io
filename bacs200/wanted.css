@@ -72,6 +72,11 @@ h2 {
     color: green;
 }    
 
+h1 {    
+    font-size: 40px;
+    font-family:Serif, Rockwell Extra Bold;
+
+}    
 
 header * {
     color: red;
