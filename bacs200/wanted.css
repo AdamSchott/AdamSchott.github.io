@@ -92,6 +92,9 @@ li {
     color: blue;
 }
 
+img {
+    border-style: inset;
+}
 /* ----------------------------------------------- */
 /* Classes */
 
