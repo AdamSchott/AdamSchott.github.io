@@ -15,7 +15,7 @@ body {
 
 article {
     border: 1px solid gray;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: 2px 2px 5px blue;
     margin: 3em;
     padding: 1em;
 }
@@ -54,6 +54,13 @@ header {
     height: 120px;
     padding: 65px;
 }
+
+h1 {    
+    font-size: 40px;
+    font-family: Marker Felt, fantasy;
+    color: blue;
+    
+}    
 
 header * {
     color: #F6B018;
