@@ -11,7 +11,7 @@ body {
     padding: 0px;
     margin: 100px;
     border-radius: 50px;
-    background-image: url("korriban.jpg")
+    background-image: "korriban.jpg"
 
 }
 
