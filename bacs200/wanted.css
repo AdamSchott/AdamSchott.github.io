@@ -10,6 +10,8 @@
 body {
     padding: 0px;
     margin: 0px;
+    border-radius: 50px;
+    background-color: blue;
 
 }
 
@@ -51,6 +53,7 @@ header {
     border: 3px solid white;
     background-color: #0E3D65;
     font-family: sans-serif;
+    text-align: left;
     height: 120px;
     padding: 65px;
 }
