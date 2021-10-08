@@ -56,14 +56,14 @@ header {
     font-family: sans-serif;
     text-align: center;
     height: 120px;
-    padding: 0px;
+    padding: 65px;
 }
 
 h1 {    
     font-size: 80px;
     font-family:Serif, Rockwell Extra Bold;
     color: pink;
-    padding: 20px;
+    padding: 0px;
 }    
 
 h2 {    
