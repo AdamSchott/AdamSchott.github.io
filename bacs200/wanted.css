@@ -22,7 +22,7 @@ article {
 }
 
 aside {
-    background-color: gray;
+    background-image: linear-gradient(to bottom right, black, gray);
     text-align: center;
     font-size: 50px;
     font-family:Serif, Rockwell Extra Bold;
@@ -56,14 +56,14 @@ header {
     background-color: rgb(90, 90, 90);
     font-family: sans-serif;
     text-align: center;
-    height: 130px;
+    height: 160px;
     padding: 20px;
 }
 
 h1 {    
     font-size: 80px;
     font-family:Serif, Rockwell Extra Bold;
-    text-shadow: 2px 2px;
+    text-shadow: 2px 4px black;
     color: pink;
     padding: 0px;
 }    
